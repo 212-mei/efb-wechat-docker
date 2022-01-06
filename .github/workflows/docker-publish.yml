@@ -8,6 +8,8 @@ name: Docker
 on:
   schedule:
     - cron: '0 0 1 * *'
+  watch:
+    types: started
     
   push:
     branches: [ master ]
